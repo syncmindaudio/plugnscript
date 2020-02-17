@@ -12,7 +12,7 @@ array<string> inputParametersNames={"Amplitude", "Frequency"};
 array<string> inputParametersUnits={"%", "Hz"};
 array<double> inputParameters(inputParametersNames.length);
 array<double> inputParametersMin={0,0};
-array<double> inputParametersDefault={50,200};
+array<double> inputParametersDefault={01,200};
 array<double> inputParametersMax={100,5000};
 
 double amplitude=0;
